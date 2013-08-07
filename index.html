@@ -89,7 +89,7 @@
         <button title="Reset grid to full cooperation" class="btn btn-small reset">Reset</button>
       </p>
       <p>
-        <label title="Score value gained each generation by a defector playing against a cooperator">B: <input class="bgain" type="number" step="0.1"></label>
+      <label title="Score value gained each generation by a defector playing against a cooperator"><em>B</em>: <input class="bgain" type="number" step="0.1"></label>
       </p>
       <p>
         <label class="checkbox" title="Retains score across generations, allowing it to build up">
@@ -129,7 +129,7 @@
                 </table>  
               </div>
             </div>
-            <p>Each little cell represents a critter. They play the game with their neighbors, and the highest-scoring critters reproduce to occupy new cells. Cooperators playing each other score 1 point each, defectors playing cooperators score 2 or more points all for themselves, and defectors playing defectors score nothing.</p>
+            <p>Each little cell represents a critter. They play the game with their neighbors, and the highest-scoring critters reproduce to occupy new cells. Cooperators playing each other score 1 point each, defectors playing cooperators score <em>B</em> points all for themselves, and defectors playing defectors score nothing.</p>
             <p>Even with such simple rules, complex patterns appear. The value of <em>B</em> represents the advantage given to defectors. Small variations in <em>B</em> can cause the equilibrium to shift wildly, illustrating the fragility and yet surprising robustness of cooperative behavior in a system governed by natural selection.</p>
             <p>The simulation runs mostly as per the original paper. There's also a toggle which color-codes cells by score and allows them to keep their score between turns, which I thought had interesting enough effects to include!</p>
             <hr>
